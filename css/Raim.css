@@ -122,15 +122,20 @@ header .fa-bars {
 
 .home {
   display: flex;
-  align-items: center;
-  min-height: 100vh;
-  background: url(../images/ban.jpg) no-repeat;
-  background-size: cover;
+  align-items: flex-start;
+  min-height: 90vh;
+  background: url(../main.jpg) no-repeat;
+  background-size: 100% 100%;
   background-position: center;
+  margin-top: 75px;
 }
 
 .home .content {
   max-width: 50rem;
+  padding: 10vw 0 0;
+  display: grid;
+  gap: 0.5vw;
+  place-items: flex-start;
 }
 
 .home .content h3 {
@@ -150,6 +155,10 @@ header .fa-bars {
   color: rgb(231, 17, 170);
   padding: 1rem 0;
   line-height: 1.5;
+}
+.home .content p {
+  line-height: 1.5;
+  font-size: 11px;
 }
 
 .about .row {
